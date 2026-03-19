@@ -1592,6 +1592,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1392897035531809523}
   - component: {fileID: 776727282814202695}
+  - component: {fileID: 5457669867728821516}
   m_Layer: 0
   m_Name: SM_BullTerrier_01
   m_TagString: Untagged
@@ -1716,6 +1717,27 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.000000007450581, y: -0.02603675, z: 0.08948564}
     m_Extent: {x: 0.045073755, y: 0.10734233, z: 0.1378726}
   m_DirtyAABB: 0
+--- !u!65 &5457669867728821516
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574459775666095881}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.09014751, y: 0.21468467, z: 0.2757452}
+  m_Center: {x: -0.000000007450581, y: 0.10734232, z: -0.0024048164}
 --- !u!1 &1581733657762877199
 GameObject:
   m_ObjectHideFlags: 0
@@ -4636,6 +4658,8 @@ GameObject:
   - component: {fileID: 2032131948272241403}
   - component: {fileID: 2770526887414138508}
   - component: {fileID: -3194536873522867360}
+  - component: {fileID: 2678628085025608374}
+  - component: {fileID: -1808607068830778920}
   m_Layer: 0
   m_Name: Dog_BullTerrier_01
   m_TagString: Untagged
@@ -4742,6 +4766,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ced149ad31836b248ae55dafa7311e19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!65 &2678628085025608374
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5853854037739136991}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.1041224, y: 0.21384904, z: 0.2807778}
+  m_Center: {x: 0.0010887384, y: 0.10739671, z: 0.035282135}
+--- !u!114 &-1808607068830778920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5853854037739136991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5af0844fbe8406c4981d115308b6876f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollision
 --- !u!1 &5873750568709538948
 GameObject:
   m_ObjectHideFlags: 0
