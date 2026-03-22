@@ -514,7 +514,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   jumpForce: 10
   gravityScale: 2
-  isOnGround: 1
 --- !u!65 &1843412136
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -577,7 +576,7 @@ GameObject:
   - component: {fileID: 2014335012}
   m_Layer: 9
   m_Name: Ground
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
